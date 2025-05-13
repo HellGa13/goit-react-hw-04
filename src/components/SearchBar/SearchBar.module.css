@@ -1,0 +1,21 @@
+.container {
+    background-color: #480063;
+    padding: 16px;
+    margin-bottom: 20px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: aliceblue;
+}
+
+.searchBar {
+    width: 375px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.searchButton {
+    width: 70px;
+    height: 50px; 
+}

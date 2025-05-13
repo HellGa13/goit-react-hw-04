@@ -1,0 +1,63 @@
+.content {
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    background-color: rgb(207, 103, 228);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    outline: none;
+    width: auto;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    max-height: 90vh; 
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    max-height: 70vh;
+}
+
+.imageInfo {
+    padding: 16px;
+    background-color: rgb(179, 114, 192);
+    overflow-y: auto;
+    max-height: 30vh;
+}
+
+.imageInfo h2 {
+    margin: 0 0 8px 0;
+}
+
+.imageInfo h3 {
+    margin: 4px 0;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
